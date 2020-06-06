@@ -10,6 +10,6 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '../app/views'));
 // middlewares
 app.use(bodyParser.urlencoded({extended: false}));
-//app.use(express.static(path.join(__dirname, '../static')))
+app.use(express.static(path.join(__dirname, '../static')))
 
 module.exports = app;

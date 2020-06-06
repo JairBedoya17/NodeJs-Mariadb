@@ -6,5 +6,6 @@ module.exports = () => {
     user: 'root',
     password: '12345678',
     database: 'prueba'
+   // port: el que es el tuyo
   });
 }
